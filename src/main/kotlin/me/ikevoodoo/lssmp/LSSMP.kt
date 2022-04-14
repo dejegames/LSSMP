@@ -123,7 +123,7 @@ class LSSMP: JavaPlugin() {
         }, 0, 5)
 /*
         if(!File(dataFolder.absolutePath + "/config.yml").exists()) {
-            config.set("elimination.environmentStealsHearts", false)
+            config.set("elimination.environmentStealsHearts", true)
             config.set("elimination.healthScale", 1.0)
             config.set("elimination.environmentHealthScale", 1.0)
             config.set("elimination.maxHearts", 10)
